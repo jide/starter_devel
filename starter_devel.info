@@ -1,0 +1,11 @@
+name = Starter: Devel
+description = Starter Devel.
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = starter_devel
+dependencies[] = devel
+dependencies[] = object_log
+dependencies[] = maillog
+features[features_api][] = api:2
+project path = sites/all/modules/features
