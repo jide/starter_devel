@@ -12,6 +12,7 @@ dependencies[] = maillog
 dependencies[] = object_log
 dependencies[] = strongarm
 dependencies[] = architecture
+dependencies[] = which_feature
 features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:2
 features[variable][] = block_cache
